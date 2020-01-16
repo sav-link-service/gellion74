@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Akrobat';
+   font-display: swap;
+   src: url('Akrobat/font.ttf');
+}
+@font-face {
+   font-family: 'Akrobatlight';
+   font-display: swap;
+   src: url('Akrobatlight/font.ttf');
+}
+@font-face {
+   font-family: 'Akrobatextrabold';
+   font-display: swap;
+   src: url('Akrobatextrabold/font.ttf');
+}
