@@ -89,7 +89,7 @@
         "title": "Домашняя",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "<script>\n// Получаем попап\nvar popup = document.getElementById('mypopup');\n\n// Получаем кнопку, открывающую попап\nvar btn = document.getElementById(\"myBtn\");\n\n// Получаем span, закрывающий попап\nvar span = document.getElementsByClassName(\"close\")[0];\n\n// Открываем попап по клику\nbtn.onclick = function() {\n    popup.style.display = \"block\";\n}\n\n// Закрываем по кнопке\nspan.onclick = function() {\n    popup.style.display = \"none\";\n}\n\n// Закрываем попап по клику в любом месте\nwindow.onclick = function(event) {\n    if (event.target == popup) {\n        popup.style.display = \"none\";\n    }\n}\n</script>",
+        "footer_custom": "<script src=\"//cdn.callibri.ru/callibri.js\" type=\"text/javascript\" charset=\"utf-8\"></script>",
         "html_before": ""
       },
       "components": [
@@ -1204,7 +1204,8 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Восстановление трубы",
-        "order": 5
+        "order": 5,
+        "footer_custom": "<script src=\"//cdn.callibri.ru/callibri.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
       },
       "components": [
         {
@@ -1991,7 +1992,8 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Доставка",
-        "order": 4
+        "order": 4,
+        "footer_custom": "<script src=\"//cdn.callibri.ru/callibri.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
       },
       "components": [
         {
@@ -2663,7 +2665,7 @@
         "meta_descr": "Web Site Generator Description",
         "title": "Спецпредложение",
         "order": 3,
-        "footer_custom": "<script>\n// Получаем попап\nvar popup = document.getElementById('mypopup');\n\n// Получаем кнопку, открывающую попап\nvar btn = document.getElementById(\"myBtn\");\n\n// Получаем span, закрывающий попап\nvar span = document.getElementsByClassName(\"close\")[0];\n\n// Открываем попап по клику\nbtn.onclick = function() {\n    popup.style.display = \"block\";\n}\n\n// Закрываем по кнопке\nspan.onclick = function() {\n    popup.style.display = \"none\";\n}\n\n// Закрываем попап по клику в любом месте\nwindow.onclick = function(event) {\n    if (event.target == popup) {\n        popup.style.display = \"none\";\n    }\n}\n</script>"
+        "footer_custom": "<script src=\"//cdn.callibri.ru/callibri.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
       },
       "components": [
         {
@@ -3321,7 +3323,8 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Все предложения",
-        "order": 2
+        "order": 2,
+        "footer_custom": "<script src=\"//cdn.callibri.ru/callibri.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
       },
       "components": [
         {
@@ -3995,7 +3998,8 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Заявка",
-        "order": 1
+        "order": 1,
+        "footer_custom": ""
       },
       "components": [
         {
